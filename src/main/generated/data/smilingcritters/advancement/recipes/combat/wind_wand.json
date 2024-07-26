@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "smilingcritters:wind_wand"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wind_wand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "smilingcritters:wind_wand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_wind_wand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "smilingcritters:wind_wand"
+    ]
+  }
+}

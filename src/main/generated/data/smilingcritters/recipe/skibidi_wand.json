@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:nether_star"
+    },
+    "B": {
+      "item": "minecraft:fire_charge"
+    },
+    "E": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "B",
+    "A",
+    "E"
+  ],
+  "result": {
+    "count": 1,
+    "id": "smilingcritters:skibidi_wand"
+  }
+}

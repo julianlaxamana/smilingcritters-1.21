@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_block"
+    },
+    "E": {
+      "item": "minecraft:pumpkin"
+    },
+    "Q": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "pattern": [
+    " E ",
+    "AQA",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "smilingcritters:baron_bunny"
+  }
+}
